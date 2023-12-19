@@ -156,7 +156,8 @@ header h2{
       margin: 10px 5px;
 }
 .feature div img{
-    display: block;
+    width: 250px;
+    height:200px;
 }
 .feature div p{
     text-align: center;
