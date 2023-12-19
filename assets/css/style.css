@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+/* Header Section Start */
+header{
+    width: 100%;
+    height: 50px;
+    background-color:#0b3583;
+    color: #fff;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Header Section End */
+/* Banner Section Start */
+.banner{
+    width: 100%;
+    height: 600px;
+    color: #fff;
+    display: flex;
+    padding:0px 100px;
+    align-items: center;
+    justify-content: space-between;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(219, 125, 125, 0.5)), url(../img/industry.png);
+    background-size: cover;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+.banner h1 span{
+    display: block;
+    font-size: 70px;
+    font-weight: 600;
+}
+.banner aside{
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    background: #0b3583;
+}
+.banner aside input[type],
+.banner aside textarea,
+.banner aside button{
+    width: 100%;
+    margin: 7px;
+    height: 50px;
+}
+/* Banner Section End */
+/* Feature Section Start */
+.feature{
+    width: 100%;
+    height: auto;
+    display: flex;
+    color: #0b3583;
+    padding: 60px 100px;
+    justify-content: space-between;
+}
+.feature div{
+    width:30%;
+    height: 500px;
+}
+.feature div h2{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+.feature div img{
+    width: 350px;
+    height:250px;
+}
+.feature div p{
+    margin-top: 7px;
+    font-size: 18px;
+    text-align: justify;
+}
+/* Feature Section End */
+/* About us Section Start */
+.about{
+    width:100%;
+    height:auto;
+    padding: 60px 300px;
+    color: #fff;
+    text-align: center;
+    background: #0b3583;
+}
+.about h2{
+    font-size: 33px;
+    margin-bottom: 7px;
+}
+.about p{
+    font-size: 18px;
+
+}
+.about button{
+  color: #fff;
+  font-weight: bold;
+  background: #0b3583;
+  margin-top: 10px;
+  border: 2px solid #fff;
+  padding: 15px 120px;
+  border-radius: 3px;
+}
+/* Anout us Section End */
+/* Service Section Start */
+.service{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+}
+.service .upper, .service .lower{
+    display: flex;
+    align-items: center;
+}
+.service .image,
+.service .content{
+    width: 50%;
+}
+.service .image img{
+    width: 600px;
+    height: 550px;
+}
+/* Service Section End */
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: auto;
+    background: #0b3583;
+    padding: 20px 20px;
+    text-align: center;
+    color: #fff;
+}
+/* Footer Section End */
+/* Media Query Section Start */
+@media screen and (max-width:992px) {
+header{
+    padding: 10px;
+
+}
+header h2{
+    font-size: 20px;
+}
+.banner{
+     padding: 0px;
+     /*flex-direction: column;*/
+}
+.feature{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.feature div h2{
+      text-align: center;
+      margin: 10px 5px;
+}
+.feature div img{
+    margin-left: 5px;
+    display: block;
+}
+.feature div p{
+    text-align: center;
+    padding-top: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+.about{
+    padding: 20px;
+}
+.service{
+    padding: 10px;
+}
+.service .upper,
+.service .lower{
+    
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.service .image,
+.service .content{
+    width: auto;
+    padding-left: 0px !important;
+
+}
+    
+}
+/* Media Query Section End */
